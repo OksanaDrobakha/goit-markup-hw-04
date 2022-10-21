@@ -161,7 +161,13 @@ body {
 .contact:hover,
 .contact:focus {
   color: var(--main-color);
-  fill: var(--main-color);
+}
+
+.contact:hover .contact-icon-envelope,
+.contact:focus .contact-icon-envelope,
+.contact:hover .contact-icon-smartphone,
+.contact:focus .contact-icon-smartphone {
+  fill: currentColor;
 }
 
 .header-container {
